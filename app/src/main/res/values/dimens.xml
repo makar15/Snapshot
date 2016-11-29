@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="activity_buttons_margin_top">20dp</dimen>
+    <dimen name="activity_buttons_margin_right">15dp</dimen>
+</resources>
