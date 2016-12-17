@@ -87,13 +87,13 @@ public class ExampleActivity extends AppCompatActivity {
             }
         });
 
-        final String name = "/test";
+        final String name = "/file_name";
         Button capture = (Button) findViewById(R.id.capture_btn);
         capture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mSnapshotMaker.takeImage();
-                mSnapshotName = name + String.valueOf(mCounter);
+                mSnapshotName = name + "_" + String.valueOf(mCounter);
                 mCounter++;
             }
         });
